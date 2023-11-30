@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #fff;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 100px;
+
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #396eb0;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+.navbar-logo span {
+  color: #2e4c6d;
+}
+
+.navbar-logo h5 {
+  font-size: 0.8rem;
+  color: #2e4c6d;
+}
+
+
+.navbar .navbar-menu a {
+  color: #396eb0;
+  font-size: 1.rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.navbar .navbar-menu a:hover {
+  color: #2e4c6d;
+}
+
+
+.container {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 200px 450px 100px;
+}
+
+.card-ty {
+  background-color: #396eb0;
+  box-shadow: 1px 4px 5px grey;
+  border-radius: 0.5rem;
+  padding: 40px 30px 30px;
+
+}
+
+.card-ty h2{
+  color: #fff;
+  text-align: center;
+}
+
+.card-ty p{
+  color: #fff;
+  text-align: center;
+}
+
+ .btn {
+  color: #050505;
+  float: right;
+  
+}

@@ -1,0 +1,138 @@
+/* CSS styles for the form */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+  
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 7%;
+    background-color: #fff;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100px;
+  
+  }
+  
+  .navbar-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #396eb0;
+    margin-left: 2rem;
+    font-style: italic;
+  }
+  
+  .navbar-logo span {
+    color: #2e4c6d;
+  }
+  
+  .navbar-logo h5 {
+    font-size: 0.8rem;
+    color: #2e4c6d;
+  }
+  
+  
+  .navbar .navbar-menu a {
+    color: #396eb0;
+    font-size: 1.rem;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+  
+  .navbar .navbar-menu a:hover {
+    color: #2e4c6d;
+  }
+
+
+  .container {
+    width: auto;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    padding: 20px;
+    padding-top: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #396eb0;
+  }
+
+  .container h3 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #396eb0;
+  }
+  
+  .form-group {
+    font-size: 1rem;
+    color: #2e2e2e;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select,  .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .form-group button {
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .form-group button:hover {
+    background-color: #2b662d;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+
+  .box {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .box p{
+    display: flex;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+
+
+    

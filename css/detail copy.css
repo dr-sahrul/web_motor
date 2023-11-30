@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Poppins';
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: #fff;
+  box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 100px;
+
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #396eb0;
+  margin-left: 2rem;
+  font-style: italic;
+}
+
+.navbar-logo span {
+  color: #2e4c6d;
+}
+
+.navbar-logo h5 {
+  font-size: 0.8rem;
+  color: #2e4c6d;
+}
+
+
+.navbar .navbar-menu a {
+  color: #396eb0;
+  font-size: 1.rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+
+.navbar .navbar-menu a:hover {
+  color: #2e4c6d;
+}
+
+.banner {
+    padding-top: 50px;
+}
+
+
+
+.detail_produk h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    padding-top: 30px;
+    color: #396eb0;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 150%;
+    left: 35%;
+    transform: translate(-50,50%);
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    transition: 1.0s;
+}
+
+.navigation {
+    position: absolute;
+    top: 110%;
+    left: 0%;
+
+    transform: translate(-50,50%);
+}
+
+.navigation .bar {
+    padding-left: 25px;
+    padding-right: 25px;
+    background: #396EB0;
+    margin: 14px;
+    cursor: pointer;
+}
+
+.navigation .bar:hover {
+    background: #2E4C6D;
+    transition: 0.5s;
+}
+
+input#gambar-2:checked ~ .slides .slide img{
+    margin-left: -100%;
+}
+input#gambar-3:checked ~ .slides .slide img{
+    margin-left: -200%;
+}
+input#gambar-4:checked ~ .slides .slide img{
+    margin-left: -300%;
+}
+input#gambar-5:checked ~ .slides .slide img{
+    margin-left: -400%;
+
+}
+
+input {
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+    display: flex;
+    background-color: #396EB0;
+    padding: 2rem 0;
+    margin-top: 4rem;
+ }
+
+ 
+
+.alamat h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 7rem;
+}
+
+.alamat .map {
+    flex: 1 1 45rem;
+    margin-left: 7rem;
+    border-radius: 0.5rem;
+}
+
+iframe {
+    border-radius: 0.2rem;
+    width: 25rem;
+    height: 15rem;
+}
+
+.info h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+
+
+.help-cntr {
+    width: 17rem;
+    height: 5rem;
+    margin: 0.1rem;
+    background-color: #fff;
+    padding-top: 1rem;
+    margin-left: 4rem;
+    border-radius: 0.5rem;
+}
+
+.cntr {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    color: #2E4C6D;
+    text-decoration: none;
+}
+
+.jam {
+    padding-top: 3rem;
+}
+
+.help-cntr .jam h2{
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: #fff;
+}
+.help-cntr .jam h4{
+    font-size: 1rem;
+    color: #fff;
+}
+.help-cntr .jam h5{
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+.sosmed h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+
+.sosmed .media {
+    display: flex;
+    margin-left: 3rem;
+}
+.sosmed .media a{
+    margin: 0.8rem;
+    color: #fff;
+}
+
+.sosmed .logo-ymh img {
+    width: 16rem;
+    height: 8rem;
+    margin-left: 4rem;
+}
+.link a{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-right: 5rem;
+}
+
+
+
+/* style berita */
+.produk {
+    padding: 8rem 7% 0.5rem;
+    background: #fff;
+} 
+
+.produk h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    color: #396eb0;
+
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    border: black;
+    justify-content: center;
+}
+
+.colom {
+    text-align: left;
+    padding-bottom: 2rem;
+    height: 364px;
+    margin: 15px;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.colom img {
+    width: 250px;
+    height: 250px;
+}
+
+img {
+    width: 100%;
+}
+
+.card-nama {
+    margin-left: 0.5rem;
+}
+
+.card-harga {
+    margin-left: 0.5rem;
+
+}
+
+.btn-block {
+    width: 240px;
+    margin: 0.4rem;
+    background-color: #396EB0;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    border-radius: 0.5rem;
+}
+
+.btn-block:hover {
+    background-color: #2E4C6D;
+    color: #396EB0;
+}
+
+.btn {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.copyright {
+    background-color: #396EB0;
+}
+
+.copyright h3{
+    font-size: 1rem;
+    text-align: center;
+    color: #dbdbdb;
+    margin-left: 7rem;
+    
+}
+
+
+
+
+
+
+
+
+/* Mobile Phone */
+@media (max-width: 758px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero .content h1 {
+        margin-left: 1rem;
+    }
+
+    .hero .content p {
+        margin-left: 1rem;
+    }
+
+    .hero .content .cta {
+        margin-left: 1rem;
+    }
+
+    .hero .content {
+        padding: 1.4rem 7%;
+        margin-bottom: 25.1rem;
+    
+    }
+}
+

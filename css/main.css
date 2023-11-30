@@ -1,0 +1,27 @@
+#popup-content {
+  background-color: blueviolet;
+  color: aliceblue;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  width: 400px;
+  height: 200px;
+  margin: auto;
+}
+
+.text h2 {
+  text-align: center;
+}
+.text p {
+  text-align: center;
+}
+
+.ok {
+  background-color: aquamarine;
+}
+.ok h3 {
+ 
+}
